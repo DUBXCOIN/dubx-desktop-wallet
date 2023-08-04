@@ -19,15 +19,11 @@ npm start
 
 ![Desktop Wallet Preview](https://arabianchain.org/dubx-wallet.jpg)
 
-## Resources for Learning Electron
+## Desktop Wallet Guide
 
-- [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
-- [electronjs.org/community#boilerplates](https://electronjs.org/community#boilerplates) - sample starter apps created by the community
-- [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
-- [electron/simple-samples](https://github.com/electron/simple-samples) - small applications with ideas for taking them further
-- [electron/electron-api-demos](https://github.com/electron/electron-api-demos) - an Electron app that teaches you how to use Electron
-- [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
-
-## License
-
-[CC0 1.0 (Public Domain)](LICENSE.md)
+1. To create a new wallet address, simply click on the PLUS icon located on the Wallets page. The keystore for this wallet will be stored in the following location: C:\Users<Username>\AppData\Roaming\dubxcoin\keystore. If you wish to customize the name of the account, you can easily do so by clicking on 'EDIT'.
+2. You have the option to export all keystores by clicking on the 'Export Accounts' icon. The keystores will be conveniently packed and zipped for your convenience.
+3. Keystores are secured with the password you provided during the wallet creation process.
+4. Before making any deposits into your newly created wallet, it is essential to ensure that you can unlock the wallet in Galaxy's website [https://www.galaxy.arabianchain.org/#view-wallet-info]. To do this, click on 'Keystore File (UTC / JSON)', select the appropriate file, and provide the password. Upon successfully unlocking the wallet, remember to COPY THE PRIVATE KEY and securely store it. This way, even if you forget the password, you'll always have access to your wallet using the private key. Additionally, in Galaxy, you have the option to print your wallet address and private key on paper if you have a printer or save it as a PDF file.
+5. The Adresses page, found in the sidebar, contains a collection of addresses that you frequently use. These addresses will be readily available in the dropdown menu as a recipient address on the Send page.
+6. Transactions page has a collection of latest transactions of all the accounts listed in Wallets page. It also displays any pending transactions that may occur when you send DUBX from your desktop wallet.
