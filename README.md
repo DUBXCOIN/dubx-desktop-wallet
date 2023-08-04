@@ -8,9 +8,9 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/DUBXCOIN/go-dubxcoin/releases/tag/v.1.0.1
+git clone https://github.com/DUBXCOIN/dubx-desktop-wallet.git
 # Go into the repository
-cd libertas-dubx-wallet
+cd dubx-desktop-wallet
 # Install dependencies
 npm install
 # Run the app
